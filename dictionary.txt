@@ -1,0 +1,10 @@
+listed = ["Aj",8,"As",11,"Ay",20,"Pk",00]
+keylist = ["Name","ID"]
+
+Res = []
+n = len(listed)
+
+for i in range(0,n,2):
+    Res.append({keylist[0]:listed[i],keylist[1]:listed[i+1]})
+
+print(Res)
